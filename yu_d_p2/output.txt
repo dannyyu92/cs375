@@ -1,0 +1,31 @@
+insert 1 0
+inserted 1 with priority 0
+insert 2 15
+inserted 2 with priority 15
+insert 3 80
+inserted 3 with priority 80
+insert 4 20
+inserted 4 with priority 20
+printHeap
+node 1 = 1 0
+node 2 = 2 15
+node 3 = 3 80
+node 4 = 4 20
+find 5
+5 is not in the extended heap
+deleteMin
+deleted 1 with priority 0
+changePriority 3 40
+changed priority of 3 to 40
+changePriority 4 14
+changed priority of 4 to 14
+printHeap
+node 1 = 4 14
+node 2 = 2 15
+node 3 = 3 40
+printLocation
+node 1 = -1
+node 2 = 2
+node 3 = 3
+node 4 = 1
+node 5 = -1

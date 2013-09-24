@@ -1,0 +1,12 @@
+5
+insert 1 0
+insert 2 15 
+insert 3 80
+insert 4 20
+printHeap
+find 5
+deleteMin
+changePriority 3 40
+changePriority 4 14
+printHeap
+printLocation
